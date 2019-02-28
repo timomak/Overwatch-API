@@ -1,4 +1,4 @@
-<!-- ![background](/Web/background.jpg) -->
+![background](/Web/background.jpg)
 <!-- ![logo](/Web/OW-logo.svg) -->
 
 # Overwatch API Project <small>V1</small>
