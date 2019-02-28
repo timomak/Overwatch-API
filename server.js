@@ -9,7 +9,7 @@ require("./Hero/hero.route")(app);
 require("./Player/player.routes")(app);
 
 // Set db
-require("./Database/overwatch-db");
+require("./Database/overwatch-db"); 
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
