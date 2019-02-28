@@ -1,0 +1,23 @@
+{
+  "name": "overwatch-api",
+  "version": "1.0.0",
+  "description": "An api for Overwatch heroes and eventually individual player stats.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timomak/Overwatch-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timomak/Overwatch-API/issues"
+  },
+  "homepage": "https://github.com/timomak/Overwatch-API#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16"
+  }
+}
