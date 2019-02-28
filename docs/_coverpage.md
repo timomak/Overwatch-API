@@ -1,4 +1,4 @@
-<!-- ![logo](_media/icon.svg) -->
+![logo](/Web/OW-logo.svg)
 
 # Overwatch API Project <small>V1</small>
 
@@ -9,3 +9,5 @@
 - Making sure something changes
 [GitHub](https://github.com/timomak/Docsify/)
 [Get Started](#future-custom-api-project)
+
+![](/Web/background.jpg)
