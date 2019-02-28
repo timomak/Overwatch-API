@@ -2,5 +2,5 @@
 
 
 *  **[V1 Overwatch API](README.md)**
-*  [MVP Planning](SideTabs/mvp-plan.md)
-*  [Goal](SideTabs/goal.md)
+*  [Player Request](SideTabs/player.md)
+*  [Hero Request](SideTabs/hero.md)

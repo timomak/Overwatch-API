@@ -1,4 +1,3 @@
-![](/Web/background.jpg)
 ![logo](/Web/cover.svg)
 
 # Overwatch API Project <small>V1</small>
