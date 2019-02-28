@@ -1,12 +1,12 @@
-![background](/Web/background.jpg)
+<!-- ![background](/Web/background.jpg) -->
 ![logo](/Web/OW-logo.svg)
 
 # Overwatch API Project <small>V1</small>
 
-> Ideas:
+> Features:
 
-- Going to display heroes
-- Implement another API to display gamer data
-- Making sure something changes
+- Display player data
+- Show all Hero info
+
 [GitHub](https://github.com/timomak/Docsify/)
 [Get Started](#future-custom-api-project)
