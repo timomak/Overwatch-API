@@ -5,7 +5,7 @@ assert = require("assert");
 const url = "mongodb://localhost/overwatch-db";
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  url,
+  process.env.MONGODB_URI || url,
   { useNewUrlParser: true },
   function(err, db) {
     assert.equal(null, err);
@@ -14,6 +14,7 @@ mongoose.connect(
     // db.close(); turn on for testing
   }
 );
+
 mongoose.connection.on("error", console.error.bind(console, "MongoDB connection Error:"));
 mongoose.set("debug", true);
 
