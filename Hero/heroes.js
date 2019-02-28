@@ -1,8 +1,8 @@
 module.exports = [
         {
-            "id": 1,
+            "tag": 1,
             "name": "Ana",
-            "description": "Ana\u2019s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.",
+            "description": "Ana\u2019s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her stagearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.",
             "health": 200,
             "armour": 0,
             "shield": 0,
@@ -12,10 +12,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Cairo, Egypt",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/1"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/1"
         },
         {
-            "id": 2,
+            "tag": 2,
             "name": "Bastion",
             "description": "Repair protocols and the ability to transform between stationary Assault, mobile Recon and devastating Tank configurations provide Bastion with a high probability of victory.",
             "health": 200,
@@ -27,10 +27,10 @@ module.exports = [
             "affiliation": null,
             "base_of_operations": null,
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/2"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/2"
         },
         {
-            "id": 3,
+            "tag": 3,
             "name": "D.Va",
             "description": "D.Va\u2019s mech is nimble and powerful\u2014its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.",
             "health": 200,
@@ -42,10 +42,10 @@ module.exports = [
             "affiliation": "Mobile Exo-Force of the Korean Army",
             "base_of_operations": "Busan, South Korea",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/3"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/3"
         },
         {
-            "id": 4,
+            "tag": 4,
             "name": "Genji",
             "description": "Genji flings precise and deadly Shuriken at his targets, and uses his technologically-advanced katana to deflect projectiles or deliver a Swift Strike that cuts down enemies.",
             "health": 200,
@@ -57,10 +57,10 @@ module.exports = [
             "affiliation": "Shimada Clan",
             "base_of_operations": "Shambali Monastery, Nepal",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/4"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/4"
         },
         {
-            "id": 5,
+            "tag": 5,
             "name": "Hanzo",
             "description": "Hanzo\u2019s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.",
             "health": 200,
@@ -72,10 +72,10 @@ module.exports = [
             "affiliation": "Shimada Clan",
             "base_of_operations": "Hanamura, Japan",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/5"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/5"
         },
         {
-            "id": 6,
+            "tag": 6,
             "name": "Junkrat",
             "description": "Junkrat\u2019s area-denying armaments include a Frag Launcher that lobs bouncing grenades, Concussion Mines that send enemies flying, and Steel Traps that stop foes dead in their tracks.",
             "health": 200,
@@ -87,10 +87,10 @@ module.exports = [
             "affiliation": "Junkers",
             "base_of_operations": "Junkertown, Australia",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/6"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/6"
         },
         {
-            "id": 7,
+            "tag": 7,
             "name": "L\u00facio",
             "description": "On the battlefield, L\u00facio\u2019s cutting-edge Sonic Amplifier buffets enemies with projectiles and knocks foes back with blasts of sound. His songs can both heal his team or boost their movement speed, and he can switch between tracks on the fly.",
             "health": 200,
@@ -102,10 +102,10 @@ module.exports = [
             "affiliation": null,
             "base_of_operations": "Rio de Janeiro, Brazil",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/7"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/7"
         },
         {
-            "id": 8,
+            "tag": 8,
             "name": "McCree",
             "description": "Armed with his Peacekeeper revolver, McCree takes out targets with deadeye precision and dives out of danger with eagle-like speed.",
             "health": 200,
@@ -117,10 +117,10 @@ module.exports = [
             "affiliation": "Deadlock Gang",
             "base_of_operations": "Santa Fe, New Mexico",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/8"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/8"
         },
         {
-            "id": 9,
+            "tag": 9,
             "name": "Mei",
             "description": "Mei\u2019s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall.",
             "health": 250,
@@ -132,10 +132,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Xi'an, China",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/9"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/9"
         },
         {
-            "id": 10,
+            "tag": 10,
             "name": "Mercy",
             "description": "Mercy\u2019s Valkyrie Suit helps keep her close to teammates like a guardian angel; healing, resurrecting or strengthening them with the beams emanating from her Caduceus Staff.",
             "health": 200,
@@ -147,10 +147,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Z\u00fcrich, Switzerland",
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/10"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/10"
         },
         {
-            "id": 11,
+            "tag": 11,
             "name": "Pharah",
             "description": "Soaring through the air in her combat armor, and armed with a launcher that lays down high-explosive rockets, Pharah is a force to be reckoned with.",
             "health": 200,
@@ -162,10 +162,10 @@ module.exports = [
             "affiliation": "Helix Security International",
             "base_of_operations": "Giza, Egypt",
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/11"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/11"
         },
         {
-            "id": 12,
+            "tag": 12,
             "name": "Reaper",
             "description": "Hellfire Shotguns, the ghostly ability to become immune to damage, and the power to step between shadows make Reaper one of the deadliest beings on Earth.",
             "health": 250,
@@ -177,10 +177,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Los Angeles, California, United States of America",
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/12"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/12"
         },
         {
-            "id": 13,
+            "tag": 13,
             "name": "Reinhardt",
             "description": "Clad in powered armor and swinging his hammer, Reinhardt leads a rocket-propelled charge across the battleground and defends his squadmates with a massive energy barrier.",
             "health": 300,
@@ -192,10 +192,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Stuttgart, Germany",
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/13"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/13"
         },
         {
-            "id": 14,
+            "tag": 14,
             "name": "Roadhog",
             "description": "Roadhog uses his signature Chain Hook to pull his enemies close before shredding them with blasts from his Scrap Gun. He\u2019s hardy enough to withstand tremendous damage, and can recover his health with a short breather.",
             "health": 600,
@@ -207,10 +207,10 @@ module.exports = [
             "affiliation": "Australian Liberation Front",
             "base_of_operations": "Junkertown, Australia",
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/14"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/14"
         },
         {
-            "id": 15,
+            "tag": 15,
             "name": "Soldier: 76",
             "description": "Armed with cutting-edge weaponry, including an experimental pulse rifle that\u2019s capable of firing spirals of high-powered Helix Rockets, Soldier: 76 has the speed and support know-how of a highly trained warrior.",
             "health": 200,
@@ -222,10 +222,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": null,
             "difficulty": 1,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/15"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/15"
         },
         {
-            "id": 16,
+            "tag": 16,
             "name": "Symmetra",
             "description": "Symmetra utilizes her light-bending Photon Projector to dispatch adversaries, shield her associates, construct teleportation pads and deploy particle-blasting Sentry Turrets.",
             "health": 100,
@@ -237,10 +237,10 @@ module.exports = [
             "affiliation": "Vishkar Corporation",
             "base_of_operations": "Utopaea, India",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/16"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/16"
         },
         {
-            "id": 17,
+            "tag": 17,
             "name": "Torbj\u00f6rn",
             "description": "Torbj\u00f6rn\u2019s extensive arsenal includes a rivet gun and hammer, as well as a personal forge that he can use to build upgradeable turrets and dole out protective armor packs.",
             "health": 200,
@@ -252,10 +252,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Gothenburg, Sweden",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/17"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/17"
         },
         {
-            "id": 18,
+            "tag": 18,
             "name": "Tracer",
             "description": "Toting twin pulse pistols, energy-based time bombs, and rapid-fire banter, Tracer is able to \\blink\\\" through space and rewind her personal timeline as she battles to right wrongs the world over.\"\"\"",
             "health": 150,
@@ -267,10 +267,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "London, England",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/18"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/18"
         },
         {
-            "id": 19,
+            "tag": 19,
             "name": "Widowmaker",
             "description": "Widowmaker equips herself with whatever it takes to eliminate her targets, including mines that dispense poisonous gas, a visor that grants her squad infra-sight, and a powerful sniper rifle that can fire in fully-automatic mode.",
             "health": 200,
@@ -282,10 +282,10 @@ module.exports = [
             "affiliation": "Talon",
             "base_of_operations": "Annecy, France",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/19"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/19"
         },
         {
-            "id": 20,
+            "tag": 20,
             "name": "Winston",
             "description": "Winston wields impressive inventions\u2014a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more\u2014with literal gorilla strength.",
             "health": 400,
@@ -297,10 +297,10 @@ module.exports = [
             "affiliation": "Overwatch",
             "base_of_operations": "Watchpoint Gibraltar",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/20"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/20"
         },
         {
-            "id": 21,
+            "tag": 21,
             "name": "Zarya",
             "description": "Deploying powerful personal barriers that convert incoming damage into energy for her massive Particle Cannon, Zarya is an invaluable asset on the front lines of any battle.",
             "health": 200,
@@ -312,10 +312,10 @@ module.exports = [
             "affiliation": "Russian Defense Forces",
             "base_of_operations": "Krasnoyarsk Front, Russia",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/21"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/21"
         },
         {
-            "id": 22,
+            "tag": 22,
             "name": "Zenyatta",
             "description": "Zenyatta calls upon orbs of harmony and discord to heal his teammates and weaken his opponents, all while pursuing a transcendent state of immunity to damage.",
             "health": 50,
@@ -327,10 +327,10 @@ module.exports = [
             "affiliation": "The Shambali",
             "base_of_operations": "Shambali Monastery, Nepal",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/22"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/22"
         },
         {
-            "id": 23,
+            "tag": 23,
             "name": "Sombra",
             "description": "Stealth and debilitating attacks make Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra\u2019s ability to Translocate and camouflage herself makes her a hard target to pin down.",
             "health": 200,
@@ -342,10 +342,10 @@ module.exports = [
             "affiliation": "Talon",
             "base_of_operations": "Dorado, Mexico",
             "difficulty": 3,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/23"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/23"
         },
         {
-            "id": 24,
+            "tag": 24,
             "name": "Orisa",
             "description": "Orisa serves as the central anchor of her team, and defends her teammates from the frontline with a protective barrier. She can attack from long range, fortify her own defenses, launch graviton charges to slow and move enemies, and deploy a Supercharger to boost the damage output of multiple allies at once.",
             "health": 200,
@@ -357,6 +357,6 @@ module.exports = [
             "affiliation": null,
             "base_of_operations": "Numbani",
             "difficulty": 2,
-            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/24"
+            "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/24"
         }
     ]

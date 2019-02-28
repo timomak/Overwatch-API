@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const HeroSchema = new Schema({
-  id: { type: String, required: true },
+  tag: { type: Number, required: true },
   name: { type: String, required: true },
   description: { type: String, required: true },
   health: { type: String, required: true },

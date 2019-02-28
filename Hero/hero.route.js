@@ -22,11 +22,11 @@ module.exports = function (app) {
           });
     });
 
-    // Get Specific hero
-    app.get("/heroes/:heroName", function (req, res) {
+    // Get Specific hero by target
+    app.get("/heroes/:tag", function (req, res) {
       // res.send(req.params.heroName)
 
-      Hero.find({name: req.params.heroName})
+      Hero.find({tag: req.params.tag})
           .then(hero => {
               res.send(hero);
           })
@@ -34,6 +34,7 @@ module.exports = function (app) {
               console.log(err.message);
           });
     });
+
     // Run this to add the heroes.js file to Moongoose
     app.get("/add", function (req, res) {
       // console.log("heroesModel")
