@@ -11,7 +11,18 @@ var heroesModel = require('./heroes')
 // }
 
 module.exports = function (app) {
-    // Get hero
+    // Get all heroes
+    app.get("/heroes", function (req, res) {
+      Hero.find()
+          .then(hero => {
+              res.send(hero);
+          })
+          .catch(err => {
+              console.log(err.message);
+          });
+    });
+
+    // Get Specific hero
     app.get("/heroes/:heroName", function (req, res) {
       // res.send(req.params.heroName)
 
