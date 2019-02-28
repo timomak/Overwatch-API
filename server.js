@@ -5,6 +5,9 @@ const app = express()
 // Set Hero related routes
 require("./Hero/hero.route")(app);
 
+// Set Player related routes
+require("./Player/player.routes")(app);
+
 // Set db
 require("./Database/overwatch-db");
 
