@@ -1,4 +1,4 @@
-const heroes = {[
+module.exports = [
         {
             "id": 1,
             "name": "Ana",
@@ -360,4 +360,3 @@ const heroes = {[
             "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/24"
         }
     ]
-}
