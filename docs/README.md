@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="/Web/background.jpg" height="110">
-</p>
+![](/Web/background.jpg)
 # Overwatch API
 API to get player data and hero data
 ## Intro
