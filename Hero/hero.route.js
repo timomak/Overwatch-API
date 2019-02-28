@@ -1,14 +1,14 @@
 const Hero = require('./hero.model')
-// var heroesModel = require('./heroes')
+var heroesModel = require('./heroes')
 
 
-// function onInsert(err, docs) {
-//     if (err) {
-//         // TODO: handle error
-//     } else {
-//         console.info('%d potatoes were successfully stored.', docs.length);
-//     }
-// }
+function onInsert(err, docs) {
+    if (err) {
+        // TODO: handle error
+    } else {
+        console.info('%d potatoes were successfully stored.', docs.length);
+    }
+}
 
 module.exports = function (app) {
     // Get all heroes
@@ -34,12 +34,12 @@ module.exports = function (app) {
               console.log(err.message);
           });
     });
-    // // Get
-    // app.get("/", function (req, res) {
-    //   console.log("heroesModel")
-    //   res.send(heroesModel)
-    //
-    //   // MARK: Code to save heroes from heroesModel
-    //   // Hero.collection.insert(heroesModel, onInsert);
-    // });
+    // Run this to add the heroes.js file to Moongoose
+    app.get("/add", function (req, res) {
+      // console.log("heroesModel")
+      res.send(heroesModel)
+
+      // MARK: Code to save heroes from heroesModel
+      Hero.collection.insert(heroesModel, onInsert);
+    });
 };
