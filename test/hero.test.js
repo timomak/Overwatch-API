@@ -21,7 +21,7 @@ describe("Testing Hero Get Routes:", function() {
         return done(); // Call done if the test completed successfully.
       });
   });
-  it("Should load a heroes", function(done) {
+  it("Should load a hero", function(done) {
     chai
       .request(app)
       // Get route should return all heroes.

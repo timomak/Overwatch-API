@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express')
 const app = express()
 
@@ -7,6 +8,9 @@ require("./Hero/hero.route")(app);
 
 // Set Player related routes
 require("./Player/player.routes")(app);
+
+// Set User related routes
+require("./User/user.routes")(app);
 
 // Set db
 require("./Database/overwatch-db");
