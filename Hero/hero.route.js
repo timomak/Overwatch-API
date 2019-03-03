@@ -2,13 +2,13 @@ const Hero = require('./hero.model')
 var heroesModel = require('./heroes')
 
 
-function onInsert(err, docs) {
-    if (err) {
-        // TODO: handle error
-    } else {
-        console.info('%d potatoes were successfully stored.', docs.length);
-    }
-}
+// function onInsert(err, docs) {
+//     if (err) {
+//         // TODO: handle error
+//     } else {
+//         console.info('%d potatoes were successfully stored.', docs.length);
+//     }
+// }
 
 module.exports = function (app) {
     // Get all heroes
@@ -35,12 +35,21 @@ module.exports = function (app) {
           });
     });
 
-    // Run this to add the heroes.js file to Moongoose
-    app.get("/add", function (req, res) {
+    // Base url
+    app.get("/", function (req, res) {
       // console.log("heroesModel")
-      res.send(heroesModel)
-
-      // MARK: Code to save heroes from heroesModel
-      Hero.collection.insert(heroesModel, onInsert);
+      res.send({
+        "allHeroes":"https://best-overwatch-api.herokuapp.com/heroes",
+        "player":"https://best-overwatch-api.herokuapp.com/player"
+      })
     });
+
+    // // Run this to add the heroes.js file to Moongoose
+    // app.get("/add", function (req, res) {
+    //   // console.log("heroesModel")
+    //   res.send(heroesModel)
+    //
+    //   // MARK: Code to save heroes from heroesModel
+    //   Hero.collection.insert(heroesModel, onInsert);
+    // });
 };
