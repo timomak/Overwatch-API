@@ -12,7 +12,7 @@ describe("Testing Player Get Routes:", function() {
     chai
       .request(app)
       // Get route should return all heroes.
-      .get("/pc/us/GamersCCCP-1569")
+      .get("/player/pc/us/GamersCCCP-1569")
       .end(function(err, res) {
         if (err) {
           return done(err);
