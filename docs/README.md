@@ -103,7 +103,7 @@ https://best-overwatch-api.herokuapp.com/heroes/2
 ## Player
 You can lookup any player, on any platform and in any region! The catch? You need to know the player's platform, region and *Battle name*. Furthermore, the account needs to be public for you to see *all* their stats.
 
-## Player Schema
+### Player Schema
 The player needs to have the account [set to public](https://dotesports.com/overwatch/news/ow-public-private-profile-25347) to show all this data. If the data is not available, some parameters are going to be `null`.
 
 | Key         | Type         | Description                                                           |
@@ -119,7 +119,7 @@ The player needs to have the account [set to public](https://dotesports.com/over
 | levelFrame  | string (url) | The Player's level frame                                              |
 | star        | string (url) | The Player's stars                                                    |
 
-## Get Player
+### Get Player
 To find a player your will need to provide three pieces of information:
 * `Platform` - Platform of user. `pc`, `xbl`, `psn`
 * `Region` - Region of player. `us`, `eu`, `kr`, `cn`, `global`
