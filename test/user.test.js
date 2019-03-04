@@ -38,19 +38,16 @@ describe("User", function() {
 
   // signup
   it("should be able to signup", function(done) {
-    // User.findOneAndRemove({ username: "testone" }, function() {
+    User.findOneAndDelete({ username: "testone" }, function() {
       agent
-        .post("/register")
+        .post("/sign-up")
         .send({ username: "testone", password: "password" })
         .end(function(err, res) {
-          if (err) {
-            return done(err);
-          }
           console.log(res.body);
           res.should.have.status(200);
           agent.should.have.cookie("nToken");
           done();
         });
-    // });
+    });
   });
 });

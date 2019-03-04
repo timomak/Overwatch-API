@@ -11,7 +11,7 @@ module.exports = app => {
   });
 
   // Register route for mobile, will return success or error messages and create users
-app.post('/register', (req, res) => {
+app.post('/sign-up', (req, res) => {
     console.log("Username: ")
     console.log(req.body.username)
     console.log(req.body.password)
@@ -28,10 +28,11 @@ app.post('/register', (req, res) => {
             user.save().then((user) => {
                 // creating token for web based clients
                 var token = jwt.sign({ _id: user._id }, process.env.SECRET, { expiresIn: "60 days" })
-                res.satus(200).json({
+                res.cookie('nToken', token, { maxAge: 900000, httpOnly: true });
+                res.status(200).header('x-auth', token).json({
                     result: "Success",
                     userId: user._id,
-                    token: token
+                    nToken: token
                 })
             }).catch((error) => {
               console.error(error)
