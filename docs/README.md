@@ -24,12 +24,16 @@ https://best-overwatch-api.herokuapp.com/
 }
 ```
 
+___
+
 There are currently two avaliable resources:
 * __Heroes__: used to get all heroes data.
 * __Player__: used to lookup a real player's data.
 
+___
+
 ## Heroes
-There is a total of 24 heroes sorted by a tag.
+There is a total of 24 heroes sorted via tag.
 ### Hero Schema
 | Key                | Type         | Description                         | Available for all |
 |--------------------|--------------|-------------------------------------|-------------------|
@@ -73,7 +77,9 @@ https://best-overwatch-api.herokuapp.com/heroes
 ]
 ```
 ### Get a single character
-You can get a single hero by adding the tag as a parameter: ```/heroes/2```
+You can get a single hero by adding the tag as a parameter:
+<br>
+ `BASE URL`/heroes`/Tag`
 
 ```URL
 https://best-overwatch-api.herokuapp.com/heroes/2
@@ -99,6 +105,8 @@ https://best-overwatch-api.herokuapp.com/heroes/2
 ]
 ```
 ![](https://media.giphy.com/media/2yqYbPakQKDFhNZbW9/giphy.gif)
+
+___
 
 ## Player
 You can lookup any player, on any platform and in any region! The catch? You need to know the player's platform, region and *Battle name*. Furthermore, the account needs to be public for you to see *all* their stats.

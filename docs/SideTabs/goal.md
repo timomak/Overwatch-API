@@ -1,5 +1,10 @@
 # Goal
-* The goal for this project is to create the ultimate Overwatch API.
-* It should be able to lookup hero info and stats.
-* Maps, abilities and achievements.
-* Most importantly, it should also allow the search of a player with their stats or game history.
+
+## **Make the absolute best Overwatch API**
+![](https://media.giphy.com/media/z9yz0X7lobcFq/giphy.gif)
+
+
+<small>Also pass Dani's BEW 1.2 class 😛</small>
+<br>
+___
+**Checkout the [MVP Planning](https://timomak.github.io/Overwatch-API/#/SideTabs/mvp-plan) page for more info!**
