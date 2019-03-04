@@ -15,27 +15,35 @@ app.post('/register', (req, res) => {
     console.log("Username: ")
     console.log(req.body.username)
     console.log(req.body.password)
-    const username = req.body.username
-    const pwd = req.body.password
+    let username = req.body.username
+    const password = req.body.password
 
-    user.username = user.username.toLowerCase()
+    username = username.toLowerCase()
     User.findOne({ username }).then(check => {
         if(!check){
+          const user = new User({
+            username,
+            password
+          })
             user.save().then((user) => {
                 // creating token for web based clients
                 var token = jwt.sign({ _id: user._id }, process.env.SECRET, { expiresIn: "60 days" })
-                res.json({
+                res.satus(200).json({
                     result: "Success",
                     userId: user._id,
                     token: token
                 })
+            }).catch((error) => {
+              console.error(error)
             })
         } else {
-            res.json({
+            res.status(401).json({
                 result: "Unsuccessful",
                 message: "This username is already in use",
             })
       }
+    }).catch((error) => {
+      console.error(error)
     })
 })
 

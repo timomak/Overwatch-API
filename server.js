@@ -1,9 +1,13 @@
 require('dotenv').config();
+const bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser');
 const jwt = require('jsonwebtoken');
 const express = require('express')
 const app = express()
 app.use(cookieParser()); // Add this after you initialize express.
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Set Hero related routes
 require("./Hero/hero.route")(app);
