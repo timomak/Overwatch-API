@@ -10,31 +10,14 @@ const agent = chai.request.agent(server);
 const User = require("../User/user.model");
 
 describe("User", function() {
-  // TESTS WILL GO HERE.
-  //
-  // it("should not be able to login if they have not registered", function(done) {
-  //   agent.post("/login", { email: "wrong@wrong.com", password: "nope" }).end(function(err, res) {
-  //     res.status.should.be.equal(401);
-  //     done();
-  //   });
-  // });
 
-
-  // it("Should just work", function(done) {
-  //   chai
-  //     .request(server)
-  //     // Get route should return all heroes.
-  //     .get("/user/test")
-  //     .end(function(err, res) {
-  //       if (err) {
-  //         return done(err);
-  //       }
-  //       res.status.should.be.equal(200);
-  //       // res.should.be.equal("test")
-  //       return done(); // Call done if the test completed successfully.
-  //     });
-  // });
-
+  // Should not log in not existing user
+  it("should not be able to login if they have not registered", function(done) {
+    agent.post("/login", { email: "wrong@wrong.com", password: "nope" }).end(function(err, res) {
+      res.status.should.be.equal(401);
+      done();
+    });
+  });
 
   // signup
   it("should be able to signup", function(done) {
@@ -50,4 +33,10 @@ describe("User", function() {
         });
     });
   });
+
+  after(function () {
+    agent.close()
+  });
+
+
 });

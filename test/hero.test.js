@@ -50,4 +50,6 @@ describe("Testing Hero Get Routes:", function() {
         return done(); // Call done if the test completed successfully.
       });
   });
+
+  // TODO: Add test for /add route
 });
