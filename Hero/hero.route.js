@@ -46,17 +46,44 @@ module.exports = function (app) {
 
   // Run this to add the heroes.js file to Moongoose
   app.get("/add", function (req, res) {
-    // console.log("heroesModel")
-    // res.send(heroesModel)
     if (req.user) {
+      console.log("Deleting")
       // Delete all the current objects from Hero database
-      Hero.remove({}, callback)
+      Hero.deleteMany({}, function(err, result) {
+        if (err) {
+            console.log(err);
+            console.log("errrror")
+            return res.status(400)
+        }
+        console.log(result);
+        // MARK: Code to save heroes from heroesModel
+        Hero.collection.insert(heroesModel, onInsert);
+        return res.status(200)
 
-      // MARK: Code to save heroes from heroesModel
-      Hero.collection.insert(heroesModel, onInsert);
+      });
     }
     else {
-      return res.status(401); // UNAUTHORIZED
+      res.status(401); // UNAUTHORIZED
+    }
+  });
+
+
+  // Delete all hero data
+  app.get("/delete", function (req, res) {
+    if (req.user) {
+      console.log("Deleting")
+      // Delete all the current objects from Hero database
+      Hero.deleteMany({}, function(err, result) {
+              if (err) {
+                  console.log(err);
+                  return res.status(400)
+              }
+              console.log(result);
+              return res.status(200)
+          });
+    }
+    else {
+      res.status(401); // UNAUTHORIZED
     }
   });
 };

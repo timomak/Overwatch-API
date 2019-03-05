@@ -5,10 +5,10 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
 
 module.exports = app => {
-  // Get Specific hero by target
-  app.get("/user/:test", function (req, res) {
-    res.send(req.params.test)
-  });
+  // // Get Specific hero by target
+  // app.get("/user/:test", function (req, res) {
+  //   res.send(req.params.test)
+  // });
 
   // Register route for mobile, will return success or error messages and create users
 app.post('/sign-up', (req, res) => {
