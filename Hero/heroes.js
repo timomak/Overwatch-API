@@ -242,7 +242,7 @@ module.exports = [
     {
         "tag": 17,
         "name": "Torbj\u00f6rn",
-        "description": "Torbj\u00f6rn\u2019s extensive arsenal includes a rivet gun and hammer, as well as a personal forge that he can use to build upgradeable turrets and dole out protective armor packs.",
+        "description": "Torbj\u00f6rn\u2019s extensive arsenal includes a rivet gun, hammer, and a personal forge that he can use to build turrets.",
         "health": 200,
         "armour": 0,
         "shield": 0,
