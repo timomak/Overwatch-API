@@ -352,9 +352,9 @@ module.exports = [
         "armour": 250,
         "shield": 0,
         "real_name": "Orisa",
-        "age": null,
+        "age": 0,
         "height": 223,
-        "affiliation": null,
+        "affiliation": "Numbani",
         "base_of_operations": "Numbani",
         "difficulty": 2,
         "url": "https:\/\/best-overwatch-api.herokuapp.com/heroes/24"
